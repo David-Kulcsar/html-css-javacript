@@ -1,0 +1,16 @@
+#content > div {
+    margin: 20px;
+}
+
+#content .button-container {
+    margin-top: 40px;
+}
+
+.back-button {
+    padding: 5px 25px;
+    font-size: 30px;
+    text-decoration: none;
+    background: #4287f5;
+    color: white;
+    border-radius: 20px;
+}

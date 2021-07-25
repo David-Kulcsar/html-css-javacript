@@ -9,3 +9,13 @@ function showHideSalary() {
     const hiddenSalaries = document.getElementsByClassName('hideSalary');    
     showHideButton.innerText = hiddenSalaries.length ? 'Show Salary' :'Hide Salary';
 }
+
+function submitForm() {
+    const obj = {
+        name: document.getElementById("fname").value,
+        function: document.getElementById("ffunction").value,
+        salary: document.getElementById("fsalary").value
+    };
+
+    alert(JSON.stringify(obj));
+}

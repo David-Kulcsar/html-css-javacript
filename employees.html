@@ -29,7 +29,10 @@
     <div id="header">
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
-            <li>Employees</li>
+            <li><a href="employees.html">Employees</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="insertToList.html">List</a></li>
+            <li><a href='employeeDetails.html?name=Employee name&desc=This is the backgroud story of the new legendary employee.&email=employee@donotcontact.new'>Employee detials</a></li>
         </ul>
     </div>
     <div id="content">
@@ -73,7 +76,7 @@
 
         <hr>
 
-        <form action="">
+        <form action="" onsubmit="submitForm()">
 
             <label for="fname">Name</label>
             <input type="text" id="fname" name="name" placeholder="Name...">

@@ -1,0 +1,26 @@
+form {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+form input, form textarea {
+    width: -webkit-fill-available;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#send {
+    margin-top: 15px;
+    height: 35px;
+    background: lightskyblue;
+    border: none;
+}
+
+#fcontent {
+    min-height: 50px;
+    border: 2px solid;
+}
